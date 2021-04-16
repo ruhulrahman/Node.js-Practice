@@ -1,0 +1,12 @@
+{
+  "name": "first_node_website",
+  "version": "1.0.0",
+  "description": "testing site",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "node index.js"
+  },
+  "author": "Ruhul",
+  "license": "ISC"
+}

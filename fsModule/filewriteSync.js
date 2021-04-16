@@ -3,7 +3,7 @@ var http = require('http')
 var server = http.createServer(function (req, res) {
     if (req.url==="/") {
 
-        let fileCreate = fs.writeFileSync('demo.txt', 'welcome to node fs write file')
+        let fileCreate = fs.writeFileSync('demoSync.txt', 'welcome to node fs write file')
         if (fileCreate) {
             res.writeHead(200, { 'Content-Type':'text/html' })
             res.write('file write failed')
