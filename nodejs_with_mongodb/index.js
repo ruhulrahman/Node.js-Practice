@@ -7,8 +7,8 @@ MongoClient.connect(url, config, function (error, db) {
         console.log("Connection Failed")
     } else {
         // console.log("Database Connected!")
-        createAndDeleteCollection (db)
-        // insertData (db)
+        // createAndDeleteCollection (db)
+        insertData (db)
         // updateData (db)
         // findData (db)
         // deleteData (db)
